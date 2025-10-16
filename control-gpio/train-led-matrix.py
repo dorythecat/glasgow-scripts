@@ -31,7 +31,7 @@ await gpio_iface.output(12, True) # Column 3
 await asyncio.sleep(1)
 
 rows = (8, 2, 3, 10, 5) # B2, A2, A3, B3, A5
-cols = (11, 7, 12, 4, 0, 6, 1) # B1, A0, A4, A6, B4, B5, A1, B7
+cols = (11, 7, 12, 4, 0, 6, 1) # B4, A1, B1, A4, A0, A6, B0
 
 async def clear():
     for row in rows:
